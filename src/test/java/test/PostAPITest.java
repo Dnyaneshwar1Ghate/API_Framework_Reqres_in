@@ -42,7 +42,7 @@ public class PostAPITest extends BaseTest {
         .then()
             .statusCode(201)
             .body("title", equalTo("QA Automation"))
-            .body("body", equalTo("Learning REST Assured BDD"))
+            .body("body", equalTo("Learning REST Assured with BDD"))
             .log().all();
     }
 }
