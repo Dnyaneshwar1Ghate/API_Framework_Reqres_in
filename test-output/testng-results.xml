@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-26T18:08:22 IST" name="Suite" finished-at="2025-12-26T18:08:25 IST" duration-ms="3308">
+    <groups>
+    </groups>
+    <test started-at="2025-12-26T18:08:22 IST" name="Test" finished-at="2025-12-26T18:08:25 IST" duration-ms="3308">
+      <class name="test.PostAPITest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.PostAPITest@1b7cc17c]" started-at="2025-12-26T18:08:22 IST" name="setup" finished-at="2025-12-26T18:08:22 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createPostTest()[pri:0, instance:test.PostAPITest@1b7cc17c]" started-at="2025-12-26T18:08:22 IST" name="createPostTest" finished-at="2025-12-26T18:08:25 IST" duration-ms="2776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPostTest -->
+        <test-method signature="getPostTest()[pri:0, instance:test.PostAPITest@1b7cc17c]" started-at="2025-12-26T18:08:25 IST" name="getPostTest" finished-at="2025-12-26T18:08:25 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostTest -->
+      </class> <!-- test.PostAPITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
