@@ -31,8 +31,8 @@ public class PostAPITest extends BaseTest {
 
         PostPayload payload = new PostPayload();
         payload.setUserId(10);
-        payload.setTitle("API Automation");
-        payload.setBody("Learning REST Assured BDD");
+        payload.setTitle("QA Automation");
+        payload.setBody("Learning REST Assured with BDD");
 
         given()
             .header("Content-Type", TestUtils.getContentType())
@@ -41,7 +41,7 @@ public class PostAPITest extends BaseTest {
             .post(Routes.createPost)
         .then()
             .statusCode(201)
-            .body("title", equalTo("API Automation"))
+            .body("title", equalTo("QA Automation"))
             .body("body", equalTo("Learning REST Assured BDD"))
             .log().all();
     }
