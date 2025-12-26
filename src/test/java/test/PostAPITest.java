@@ -41,7 +41,7 @@ public class PostAPITest extends BaseTest {
             .post(Routes.createPost)
         .then()
             .statusCode(201)
-            .body("title", equalTo("QA Automation"))
+            .body("title", equalTo("QA Automation1"))
             .body("body", equalTo("Learning REST Assured BDD"))
             .log().all();
     }
